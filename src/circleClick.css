@@ -1,0 +1,44 @@
+body {
+    background-color: coral;
+}
+
+.div-circle {
+    background-image:linear-gradient(to bottom, rgb(209, 87, 87), rgba(118, 18, 165, 0.76));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    font-size: 40px;
+    padding: 100px 100px;
+    border-radius: 60%;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family:monospace;
+    color: aliceblue;
+}
+
+.reset {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 45px;
+    margin-top: 60px;
+    font-size: 25px
+}
+
+.reset:hover{
+    background-color: rgb(197, 195, 195);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
